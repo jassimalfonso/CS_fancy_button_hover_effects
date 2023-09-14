@@ -39,3 +39,23 @@ body {
 	transform: scale(0.95);
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18), 0 6px 6px rgba(0, 0, 0, 0.22);
 }
+
+@media only screen and (max-width: 850px) {
+	body {
+		flex-direction: column;
+		gap: 1em;
+	}
+	.btn {
+		scale: 0.8;
+		
+	}
+}
+@media only screen and (max-width: 420px) {
+	body {
+		scale: 0.8;
+	}
+	.btn {
+		scale: 0.6;
+		
+	}
+}
